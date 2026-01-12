@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KaamDe | India’s Gig Work Platform</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #f4f7fb;
+      color: #222;
+    }
+    header {
+      background: linear-gradient(135deg, #0f9b8e, #0a5c55);
+      color: white;
+      padding: 25px 20px;
+    }
+    header h1 { margin: 0; font-size: 34px; }
+    header p { margin: 5px 0 15px; }
+    nav a {
+      color: white;
+      margin-right: 15px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .hero {
+      text-align: center;
+    }
+    .hero h2 { font-size: 40px; margin-bottom: 10px; }
+    .hero p { font-size: 18px; }
+    .btn {
+      background: #0f9b8e;
+      color: white;
+      padding: 14px 26px;
+      border-radius: 30px;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 20px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
+      margin-top: 30px;
+    }
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 16px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    }
+    .card h3 { margin-top: 0; }
+    .rating { color: #f4b400; font-size: 18px; }
+    .profile-img {
+      width: 100%;
+      height: 180px;
+      background: #ddd;
+      border-radius: 12px;
+      margin-bottom: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      color: #666;
+    }
+    footer {
+      background: #0a5c55;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    footer h3 { margin-top: 0; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>KaamDe</h1>
+  <p>Roz ka kaam, bharose ke saath</p>
+  <nav>
+    <a href="#workers">Gig Workers</a>
+    <a href="#employers">Employers</a>
+    <a href="#stories">Stories</a>
+    <a href="#about">About Us</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Connecting Employers & Gig Workers Across India</h2>
+  <p>Hire skilled workers daily or find trusted work near you – fast, local, reliable.</p>
+  <a class="btn" href="#workers">Explore Platform</a>
+</section>
+
+<section id="workers">
+  <h2>Available Gig Workers</h2>
+  <div class="grid">
+    <div class="card">
+      <div class="profile-img">Worker Image</div>
+      <h3>Ramesh Kumar – Electrician</h3>
+      <p>Experience: 6 years</p>
+      <p>Location: Delhi</p>
+      <p class="rating">★★★★★ (4.8)</p>
+    </div>
+    <div class="card">
+      <div class="profile-img">Worker Image</div>
+      <h3>Sanjay Verma – Mason</h3>
+      <p>Experience: 10 years</p>
+      <p>Location: Noida</p>
+      <p class="rating">★★★★☆ (4.5)</p>
+    </div>
+    <div class="card">
+      <div class="profile-img">Worker Image</div>
+      <h3>Amit Singh – Delivery Helper</h3>
+      <p>Experience: 3 years</p>
+      <p>Location: Gurugram</p>
+      <p class="rating">★★★★★ (4.9)</p>
+    </div>
+  </div>
+</section>
+
+<section id="employers">
+  <h2>Trusted Employers</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Sharma Constructions</h3>
+      <p>Industry: Construction</p>
+      <p>Hiring: Daily Wage Workers</p>
+      <p class="rating">★★★★☆ (4.6)</p>
+    </div>
+    <div class="card">
+      <h3>QuickMove Logistics</h3>
+      <p>Industry: Logistics</p>
+      <p>Hiring: Loaders & Drivers</p>
+      <p class="rating">★★★★★ (4.8)</p>
+    </div>
+  </div>
+</section>
+
+<section id="stories">
+  <h2>Real Stories</h2>
+  <div class="grid">
+    <div class="card">
+      <div class="profile-img">Worker Photo</div>
+      <p>“KaamDe helped me get daily work without any contractor.”</p>
+      <strong>– Ramesh, Electrician</strong>
+    </div>
+    <div class="card">
+      <div class="profile-img">Employer Photo</div>
+      <p>“Hiring workers locally has become fast and reliable.”</p>
+      <strong>– Sharma Constructions</strong>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <h2>About KaamDe</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Our Mission</h3>
+      <p>To empower gig workers with fair, transparent and daily work opportunities.</p>
+    </div>
+    <div class="card">
+      <h3>Our Vision</h3>
+      <p>To become India’s most trusted hyperlocal gig work ecosystem.</p>
+    </div>
+    <div class="card">
+      <h3>Company Info</h3>
+      <p>KaamDe is an early-stage startup focused on bridging the gap between labour demand and supply.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <h3>KaamDe</h3>
+  <p>Empowering India’s Workforce</p>
+  <p>© 2026 KaamDe. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
